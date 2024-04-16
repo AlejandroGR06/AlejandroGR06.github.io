@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+    <html lang="es-ES">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="CSS/Principal.css"/>
+            <link rel="shorcut icon" href="IMAGENES/_78a8e8ab-576e-45b6-927b-6e8c1a26e409.jpg" TYPE="image/x-icon" />
+            <link rel="stylesheet" href="CSS/estilos.css"/>
+            <link rel="stylesheet" href="Responsive-Cross-platform-jQuery-Navigation-Menu-Plugin-Smart-Menus/">
+            <script>
+                window.alert("Bienvenido a F & A")                                                               
+            </script>
+
+        </head>
+
+        <body> <!-- Contenido de la página -->
+            <header> <!-- Contenido del encabezado -->         
+                <div id="imagen">
+                    <img src="IMAGENES/_78a8e8ab-576e-45b6-927b-6e8c1a26e409.jpg" alt="Logo de la tienda">
+                </div>
+
+                <div id="logo">
+                    <strong>F & A</strong>
+                </div>
+
+                <div id="Buscar">
+                    Buscar  <input type="search" name="buscar" placeholder="Buscar"/>
+                </div>
+                <div id="carrito">
+                    <a id="carrito1" href="Carrito.html">Carrito</a>
+                </div>
+            </header>
+
+
+
+            <nav> <!-- Menú de navegación principal -->
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Tienda.html">Tienda</a></li>
+                    <li><a href="Colecciones.html">Colecciones</a></li>
+                    <li><a href="Sobre nosotros.html">Sobre nosotros</a></li>
+                    <li><a  href="FOREVER DAMNED ALEJANDRO MORENO Y JESUS PANTOJA/PRUEBA GRID/index.html">F&A x Forever damned</a></li>            <div class="dropdown">
+                    <li><button class="dropbtn" id="desplegable"style="background-color: black; color: white;"><a href="contacto.html">Asistencia</a></button></li>
+                    <div class="dropdown-content">
+                        <li><a href="contacto.html" id="desplegable1">Contacto</a></li>
+                        <li><a href="Terminos y condiciones.html"id="desplegable2">Terminos y condiciones</a></li>
+                    </div>
+              
+              <script>
+              // Obtener el botón y el menú desplegable
+              var dropdown = document.querySelector('.dropdown');
+              var dropdownContent = document.querySelector('.dropdown-content');
+              
+              // Agregar un evento click al botón
+              dropdown.addEventListener('click', function() {
+                // Si el menú está visible, ocultarlo; si está oculto, mostrarlo
+                if (dropdownContent.style.display === 'block') {
+                  dropdownContent.style.display = 'none'    ;
+                } else {
+                  dropdownContent.style.display = 'block';
+                }
+              });
+              </script>
+              
+                </ul>
+            </nav>
+
+            </nav>
+            <div id="Principal">  <!-- F&A EN GRANDE Y texto de arriba -->
+                <div id="FA">
+                    <strong>F&A</strong>
+                </div>
+
+                <div id="refran">
+                    Imagina, sueña, crea
+                </div>
+
+
+            </div>
+
+            <main><!-- Contenido principal del cuerpo (sección principal) -->
+            <nav>
+                <ul>
+                    <li><img src="IMAGENES/Inicio2.jpg" alt=""></li>
+                    <li><video src="VIDEO/SaveTube.io-Product Animation for a Clothing Brand made in Blender 3D.mp4" controls autoplay loop></video></li>
+                    <li><video src="VIDEO/SaveTube.io-Nike Logo Animation .mp4" controls autoplay loop></video></li>
+                    <li><video src="VIDEO/SaveTube.io-Jacket Cloth Animation_ Marvelous designer   Blender.mp4" controls autoplay loop></video></li>
+                    <li><img src="IMAGENES/Inicio1.jpg" alt=""></li>
+                </ul>
+            </nav>
+            </main>
+
+            <footer> <!-- Contenido del pie de página -->
+                <div id="Contacto">
+                    <h3 id="Contacto1"><a id="Contacto1" href="contacto.html">Contacto</a></h3>
+                    <p>Dirección: Calle Ancha #34, Cordoba</p>
+                    <p>Teléfono: (678) 574-356</p>
+                    <p>Email: info@f&aropa.com</p>
+                </div>
+        
+                <div id="RedesS">
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <ul>
+                        <a id="redessociales" href="https://facebook.com/fayaropa" target="_blank">Facebook</a>
+                        <a id="redessociales" href="https://twitter.com/fayaropa" target="_blank">Twitter</a>
+                        <a id="redessociales" href="https://instagram.com/fayaropa" target="_blank">Instagram</a>
+                    </ul>
+                </div>
+
+
+                <div><!-- Informacion del footer -->
+                    <p>&copy; 2023 F&A - Ropa de Moda. Todos los derechos reservados. Hecho por Alejandro García® y Francisco Soler®</p>
+
+                </head>
+                <body>
+                
+                <div id="fecha-hora"></div>
+                
+                <script>
+                  // Función para obtener la fecha y hora actual y actualizarla cada segundo
+                  function mostrarFechaHora() {
+                    const fechaHoraActual = new Date();
+                    const fecha = fechaHoraActual.toLocaleDateString();
+                    const hora = fechaHoraActual.toLocaleTimeString();
+                    const fechaHoraString = `${fecha} - ${hora}`;
+                    document.getElementById('fecha-hora').textContent = fechaHoraString;
+                  }
+                
+                  // Mostrar la fecha y hora actual al cargar la página
+                  mostrarFechaHora();
+                
+                  // Actualizar la fecha y hora cada segundo
+                  setInterval(mostrarFechaHora, 1000);
+                </script>
+                
+                </div>
+            </footer>
+        </body>
+    </html>
+</html>

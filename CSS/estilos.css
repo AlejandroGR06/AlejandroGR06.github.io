@@ -1,0 +1,95 @@
+#Principal{
+    background-image: url(../IMAGENES/Principal1.jpg);
+    height: 850px;
+    font-size:110px;   
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    font-family: letra1;
+}
+#FA{
+    position: absolute;
+    height: 65px;
+    top: 550px;
+    left: 870px;
+    color: rgb(255, 255, 255);
+
+}
+
+#refran{
+    position: absolute;
+    height: 65px;
+    top: 530px;
+    left: 888px;
+    color: orange;
+    font-size: 20px;
+
+}
+
+#RedesS{
+    position: absolute;
+    top: 3825px;
+    right: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav ul li {
+    margin: 10px;
+    padding: 0;
+    font-family: letra1;
+    text-align: center;
+    
+}
+
+video{
+    align-items: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+}
+
+li img{
+    width: 1690px;
+}
+
+
+#redessociales{
+    color: orange; 
+    text-decoration: none;
+
+}
+
+#Politicas1{
+    color: inherit; /* Esto heredará el color del texto del elemento padre */
+    text-decoration: none; /* Esto eliminará el subrayado */
+    position: absolute;
+    top: 3940px;
+    right: 855px;
+}
+
+#Contacto1{
+    color: inherit; /* Esto heredará el color del texto del elemento padre */
+    text-decoration: none; /* Esto eliminará el subrayado */
+}
+
+#desplegable1{
+    float: left;
+    font-family: letra1;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno de enfoque */
+}
+
+#desplegable2{
+    float: left;
+    font-family: letra1;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno de enfoque */
+}
+

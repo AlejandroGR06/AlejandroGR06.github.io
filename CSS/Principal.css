@@ -1,0 +1,251 @@
+@font-face {
+    font-family: letra;
+    src: url(../LETRAS/WhiskeyState_PERSONAL_USE_ONLY.ttf);
+
+    font-family: letra1;
+    src: url(../LETRAS/DESIGNER.ttf);
+}
+
+header{  /* Propiedades del encabezado */
+    width: 100%;
+    background-color: rgb(17, 17, 30);
+    color: orange;
+    text-align: center;
+    height: 35px;
+    font-size: 35px;
+    padding: 15px;
+    font-family: letra1;
+}
+
+#imagen{ /* Propiedades para el logotipo */
+    display:block;
+    float:left;
+    height: 65px;
+    background-color: brown;
+    position: absolute;
+    top: -6px;
+}
+
+#Buscar{  /* Busqueda en la cabecera */
+  /*  float:left; */
+    text-align: right;
+    font-size: 17px;
+    position: absolute;
+    top: 37px;
+    right: 50px;
+}
+
+footer{ /* Propiedades del pie de página */
+    width: 100%;
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    padding: 20px;
+    font-family: letra1;
+    
+}
+
+#información{
+    width: 100%;
+    background-color: black;
+    color: goldenrod;
+    padding: 20px;
+    font-family: letra1;
+}
+
+div img{  /* Propiedades del logo arriba a la izquierda */
+    position: absolute;
+    height: 65px;
+    top: 14px;
+    left: 50px;
+}
+
+nav{ /* Propiedades para la barra de navegación superior donde aparece inicio, tienda etc..*/
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+    color: orange;
+    font-family: letra;
+}
+
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    font-family: letra;
+}
+nav ul li {
+    float: left;
+    font-family: letra;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+#desplegable{
+    float: left;
+    font-family: letra;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+#desplegable{
+    display: block;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    place-items: center;
+    font-family: letra1;
+}
+
+#desplegable{
+    float: left;
+    font-family: letra1;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno de enfoque */
+}
+
+#desplegable1{
+    float: left;
+    font-family: letra1;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno de enfoque */
+}
+
+#desplegable2{
+    float: left;
+    font-family: letra1;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno de enfoque */
+}
+
+nav ul li a {
+    display: block;
+    padding: 17px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    place-items: center;
+}
+
+nav ul li a div.dropdown li{
+    display: block;
+    padding: 17px;
+    color: rgb(214, 18, 18);
+    text-decoration: none;
+    place-items: center;
+    font-family: letra;
+}
+
+
+nav ul li:hover{
+    background-color: rgb(34, 33, 32);
+}
+
+body{
+    background-color: rgb(9, 9, 9);
+    color: white;
+}
+
+#Contacto{
+    text-align: left;
+}
+
+
+footer{
+    font-family: letra1;
+    background-color: rgb(17, 17, 30);
+}
+
+#buscar{
+    
+}
+
+input{
+    background-color: rgb(47, 46, 46);
+    color: orange;
+}
+
+.dropdown {
+    position:relative;
+    display:flex;
+    font-family: letra;
+  }
+
+  .dropdown-content {
+    display: none;
+    position:sticky;
+    background-color: rgb(17, 17, 30);
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: letra;
+  }
+
+  .dropdown-content a {
+    color:rgb(255, 255, 255); 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    font-family: letra;
+  }
+
+  .dropdown-content a:hover {
+    background-color:rgb(0, 0, 0);
+    font-family: letra;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    font-family: letra;
+    background-color: rgb(0, 0, 0);
+  }                         
+
+  .dropdown:hover .dropbtn {
+    background-color: rgb(0, 0, 0);
+    font-family: letra;
+  }
+
+  #carrito{
+    text-align: right;
+    font-size: 17px;
+    position: absolute;
+    top: 39px;
+    right: 310px;
+    color: orange; 
+    text-decoration: none; 
+  }
+
+#carrito1 {
+  color: orange; 
+  text-decoration: none; 
+}
+
+#redessociales{
+    color: orange; 
+    text-decoration: none;
+
+}
+
+#Politicas1{
+    color: inherit; /* Esto heredará el color del texto del elemento padre */
+    text-decoration: none; /* Esto eliminará el subrayado */
+    position: absolute;
+    top: 3940px;
+    right: 855px;
+}
+
+#Contacto1{
+    color: inherit; /* Esto heredará el color del texto del elemento padre */
+    text-decoration: none; /* Esto eliminará el subrayado */
+}
+
+{
+    border: none; /* Elimina el borde */
+
+}
+

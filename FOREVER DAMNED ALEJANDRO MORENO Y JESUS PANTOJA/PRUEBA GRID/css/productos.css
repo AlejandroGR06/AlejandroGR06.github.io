@@ -1,0 +1,171 @@
+@font-face {
+    font-family: vogue;
+    src: url(/tipoletra/Vogue.ttf);
+}
+
+@font-face {
+    font-family: valverde;
+    src: url(/tipoletra/Valverde-CondSemBdIta.otf);
+}
+body {
+    background-color:#bfdbf7;
+    margin: 0px;
+}
+
+div.titulo-encabezado {
+    text-align: center;
+    font-family:"vogue";
+    font-size: 40px;
+    color:#fdfffc;
+    padding-top: 10px;
+}
+
+div.logo-encabezado {
+    display: flex;
+    align-content: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 0px;
+    margin-bottom: -65px;
+    margin-top: 20px;
+}
+
+header{
+    background-color:#ffc2e2;
+    position:static;
+    width:110%;
+}
+
+
+div.barra-nav li{
+    overflow: hidden;
+    color: #fdfffc;
+    display: inline;
+    font-family: 'Young Serif', serif;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration:none;
+    font-size: 30px;
+}
+div.barra-nav nav{
+    width: 100%;
+    text-align:center;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-top: -100px;
+    margin-top: 0px;
+    position: static;
+}
+
+div.barra-nav a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+div.barra-nav a {
+    text-decoration: none;
+    color: #fdfffc;
+}
+
+hr {
+    width:auto;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+div.piepagina {
+    font-family:'valverde';
+    text-align: center;
+    color:#fdfffc;
+    font-size: 25px;
+    margin-bottom:0px;
+    margin-top: 450px;
+    background-color: #ffc2e2;
+    text-shadow: 3px 2px 3px #bfdbf7;
+    box-shadow: 2px 5px 30px black;
+    width: 110%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+div.texto-1 a{
+    font-size: 60px;
+    text-align: center;
+    display:block;
+    font-family: "vogue";
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fdfffc;
+    text-shadow: 3px 3px 0px #ffc2e2;
+    margin-top: 50px;
+    margin-bottom:75px;
+    padding-top: 200px;
+    padding-bottom:200px;
+    background-image: url(/imagenes/classic-dad-hat-khaki-front-6508a3e7c79a7.png);
+    background-repeat: repeat;
+    background-size: 2000px;
+    background-position: center;
+}
+
+div.texto-1 a:hover{
+    color: black;
+    cursor: pointer;
+    text-shadow: 3px 3px 0px #ffc2e2;
+}
+
+div.texto-2 a{
+    font-size: 60px;
+    text-align: center;
+    display:block;
+    font-family: "vogue";
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fdfffc;
+    text-shadow: 3px 3px 0px #ffc2e2;
+    margin-top: 50px;
+    margin-bottom:75px;
+    padding-top: 250px;
+    padding-bottom:200px;
+    background-image: url(/imagenes/unisex-heavy-blend-hoodie-light-pink-front-6508a1a1124e5.png);
+    background-repeat:no-repeat;
+    background-size: 500px;
+    background-position: center;
+}
+
+div.texto-2 a:hover{
+    color: black;
+    cursor: pointer;
+    text-shadow: 3px 3px 0px #ffc2e2;
+}
+
+div.texto-3 a{
+    font-size: 60px;
+    text-align: center;
+    display:block;
+    font-family: "vogue";
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fdfffc;
+    text-shadow: 3px 3px 0px #ffc2e2;
+    margin-top: 50px;
+    margin-bottom:-20px;
+    padding-top: 250px;
+    padding-bottom:200px;
+    background-image: url(/imagenes/I\ WANT\ MY\ F40.png);
+    background-repeat:no-repeat;
+    background-size: 1000px;
+    background-position: center;
+}
+
+div.texto-3 a:hover{
+    color: black;
+    cursor: pointer;
+    text-shadow: 3px 3px 0px #ffc2e2;
+}
+
+    
+
+

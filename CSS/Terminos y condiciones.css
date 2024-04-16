@@ -1,0 +1,96 @@
+@font-face {
+    font-family: letra;
+    src: url(../LETRAS/WhiskeyState_PERSONAL_USE_ONLY.ttf);
+
+    font-family: letra1;
+    src: url(../LETRAS/DESIGNER.ttf);
+}
+
+nav ul li{
+    font-family: letra1;
+}
+
+#desplegable{
+    font-family: letra1;
+}
+
+nav ul div{
+    font-family: letra1;
+}
+
+script{
+    font-family: letra1;
+}
+
+body{
+    font-family: letra1;
+}
+
+
+main div{
+font-family: letra1;
+font-size: 20px;
+color: goldenrod;
+}
+#RedesS{
+    position: absolute;
+    top: 1120px;
+    right: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    grid-gap: 10px; /* Espacio entre las celdas */
+    padding: 20px;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+#redessociales{
+    color: orange; 
+    text-decoration: none;
+
+}
+
+
+#Politicas1{
+    color: inherit; /* Esto heredará el color del texto del elemento padre */
+    text-decoration: none; /* Esto eliminará el subrayado */
+    position: absolute;
+    top: 3940px;
+    right: 855px;
+}
+
+#Contacto1{
+    color: inherit; /* Esto heredará el color del texto del elemento padre */
+    text-decoration: none; /* Esto eliminará el subrayado */
+}
+
+
+#desplegable1{
+    float: left;
+    font-family: letra1;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno de enfoque */
+}
+
+#desplegable2{
+    float: left;
+    font-family: letra1;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno de enfoque */
+}
+

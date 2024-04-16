@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+    <html lang="es-ES">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="CSS/Principal.css"/>
+            <link rel="shorcut icon" href="IMAGENES/_78a8e8ab-576e-45b6-927b-6e8c1a26e409.jpg" TYPE="image/x-icon" />
+            <link rel="stylesheet" href="CSS/estilostienda.css"/>
+            <script src="JS/Tienda.js"></script>
+        </head>
+
+        <body>
+            <header> <!-- Contenido del encabezado -->         
+                <div id="imagen">
+                    <img src="IMAGENES/_78a8e8ab-576e-45b6-927b-6e8c1a26e409.jpg" alt="Logo de la tienda">
+                </div>
+
+                <div id="logo">
+                    <strong>F & A</strong>
+                </div>
+
+                <div id="Buscar">
+                    Buscar  <input type="search" name="buscar" placeholder="Buscar"/>
+                </div>
+                <div id="carrito">
+                    <a id="carrito1" href="carrito.html">Carrito</a>
+                </div>
+            </header>
+            
+            <nav> <!-- Menú de navegación principal -->
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Tienda.html">Tienda</a></li>
+                    <li><a href="Colecciones.html">Colecciones</a></li>
+                    <li><a href="Sobre nosotros.html">Sobre nosotros</a></li>
+                    <li><a  href="FOREVER DAMNED ALEJANDRO MORENO Y JESUS PANTOJA/PRUEBA GRID/index.html">F&A x Forever damned</a></li>            <div class="dropdown">
+                    <li><button class="dropbtn" id="desplegable"style="background-color: black; color: white;"><a href="contacto.html">Asistencia</a></button></li>
+                    <div class="dropdown-content">
+                        <li><a href="contacto.html" id="desplegable1">Contacto</a></li>
+                        <li><a href="Terminos y condiciones.html"id="desplegable2">Terminos y condiciones</a></li>
+                    </div>
+              
+              
+              <script>
+              // Obtener el botón y el menú desplegable
+              var dropdown = document.querySelector('.dropdown');
+              var dropdownContent = document.querySelector('.dropdown-content');
+              
+              // Agregar un evento click al botón
+              dropdown.addEventListener('click', function() {
+                // Si el menú está visible, ocultarlo; si está oculto, mostrarlo
+                if (dropdownContent.style.display === 'block') {
+                  dropdownContent.style.display = 'none';
+                } else {
+                  dropdownContent.style.display = 'block';
+                }
+              });
+              </script>
+                </ul>
+            </nav>
+            
+            <main>
+                <div id="Título">Moda para hombre online</div>
+                <nav>
+                    <nav class="menu">
+                        <ul id="colección1">
+                            <li><img src="IMAGENES/TIENDA9.JPG" alt="Colección1">
+                            <br>basebell cap <br> <p>9,99€</p>
+                            <button onclick="agregarAlCarrito('Camiseta', 9.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora</button>
+                            <br>
+                            <br>
+
+                            </li>
+                            
+                        </ul>
+    
+                        <ul id="colección2">
+                            <li><img src="IMAGENES/TIENDA5.JPG" alt="Colección2">
+                                <br>Pier one jersey <br> <p>59,99€</p>
+                                <button onclick="agregarAlCarrito('Camiseta', 59.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                                <br>
+                                <br>
+                            </li>
+                        </ul>
+    
+                        <ul>
+                            
+                            <li><img src="IMAGENES/TIENDA7.JPG" alt="Colección3">
+                                <br>Air Force 1
+                                <br>
+                                <p>119,99€</p>
+                                <button onclick="agregarAlCarrito('Camiseta', 119.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                                <br>
+                                <br>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><img src="IMAGENES/tienda1.jpg" alt="Colección1">
+                            <br>club crw <br>
+                            <p>59,99€</p>
+                            <button onclick="agregarAlCarrito('Camiseta', 59.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                            <br>
+                            </li>
+                            
+                        </ul>
+                        
+                        <ul>
+                            <li><img src="IMAGENES/TIENDA10.JPG" alt="Colección1">
+                            <br>blazer'77 <br> <p>79,99€</p>
+                            <button onclick="agregarAlCarrito('Camiseta', 79.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                            <br>
+                            <br>
+                            </li>
+                            
+                        </ul>
+    
+                        <ul>
+                            <li><img src="IMAGENES/TIENDA11.JPG" alt="Colección2">
+                                <br>3-stripes tee <br> <p>29,99€</p>
+                                <button onclick="agregarAlCarrito('Camiseta', 29.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                            </li>
+                        </ul>
+    
+                        <ul>
+                            
+                            <li><img src="IMAGENES/TIENDA12.JPG" alt="Colección3">
+                                <br>jorvestebro hood <p>54,99€</p>
+                                <button onclick="agregarAlCarrito('Camiseta', 54.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                            </li>
+                        </ul>
+                        <ul id="colección4">
+                            <li><img src="IMAGENES/TIENDA13.JPG" alt="Colección1">
+                            <br>Crocs classic  <p>55€</p>
+                            <button onclick="agregarAlCarrito('Camiseta', 55)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                            </li>
+                            
+                        </ul>
+
+                        <ul>
+                            <li><img src="IMAGENES/TIENDA15.JPG" alt="Colección1">
+                            <br>Jordan <br>  <p>179,99€</p>
+                            <button onclick="agregarAlCarrito('Camiseta', 179.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                            <br>
+                            <br>
+
+                            </li>
+                            
+                        </ul>
+    
+                        <ul>
+                            <li><img src="IMAGENES/TIENDA16.JPG" alt="Colección2">
+                                <br>adidas sportswear <br>  <p>69,99€</p>
+                                <button onclick="agregarAlCarrito('Camiseta', 69.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                                <br>
+                                <br>
+                            </li>
+                        </ul>
+    
+                        <ul>
+                            
+                            <li><img src="IMAGENES/TIENDA17.JPG" alt="Colección3">
+                                <br>spongebob frenzy<br>  <p>204,99€</p>
+                                <button onclick="agregarAlCarrito('Camiseta', 204.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>   
+                                <br>
+                                <br>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><img src="IMAGENES/TIENDA18.JPG" alt="Colección1">
+                            <br>blazer low ´77 <br>  <p>69,99€</p>
+                            <button onclick="agregarAlCarrito('Camiseta', 69.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button> 
+                            <br>
+                            <br>
+                            </li>
+                            
+                        </ul>
+                        
+                        <ul>
+                            <li><img src="IMAGENES/TIENDA3.JPG" alt="Colección1">
+                            <br>nike hoodie <br>  <p>47,99€</p>
+                            <button onclick="agregarAlCarrito('Camiseta', 47.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button> 
+                            <br>
+                            <br>
+                            </li>
+                            
+                        </ul>
+    
+                        <ul>
+                            <li><img src="IMAGENES/TIENDA4.JPG" alt="Colección2">
+                                <br>arch jersey<br>  <p>47,99€</p>
+                                <button onclick="agregarAlCarrito('Camiseta', 20)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                                <br>
+                                <br>
+                            </li>
+                        </ul>
+    
+                        <ul>
+                            
+                            <li><img src="IMAGENES/TIENDA8.JPG" alt="Colección3">
+                                <br>north face norm  <p>49,99€</p>
+                                <button onclick="agregarAlCarrito('Camiseta', 49.99)">Agregar al carrito</button><button onclick="agregarAlCarrito('Camiseta', 204.99)">Comprar ahora  </button>
+                            </li>
+                        </ul>
+
+
+
+                        
+                        
+
+                        
+                    </nav>
+    
+            </main>
+
+            <footer>
+                <div id="Contacto">
+                    <h3 id="Contacto1"><a id="Contacto1" href="contacto.html">Contacto</a></h3>
+                    <p>Dirección: Calle Ancha #34, Cordoba</p>
+                    <p>Teléfono: (678) 574-356</p>
+                    <p>Email: info@f&aropa.com</p>
+                </div>
+        
+                <div id="RedesS">
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <ul>
+                        <a id="redessociales" href="https://facebook.com/fayaropa" target="_blank">Facebook</a>
+                        <a id="redessociales" href="https://twitter.com/fayaropa" target="_blank">Twitter</a>
+                        <a id="redessociales" href="https://instagram.com/fayaropa" target="_blank">Instagram</a>
+                    </ul>
+                </div>
+
+
+
+                <div>
+                    <p>&copy; 2023 F&A - Ropa de Moda. Todos los derechos reservados. Hecho por Alejandro García® y Francisco Soler®</p>
+                                    
+                <div id="fecha-hora"></div>
+                
+                <script>
+                  // Función para obtener la fecha y hora actual y actualizarla cada segundo
+                  function mostrarFechaHora() {
+                    const fechaHoraActual = new Date();
+                    const fecha = fechaHoraActual.toLocaleDateString();
+                    const hora = fechaHoraActual.toLocaleTimeString();
+                    const fechaHoraString = `${fecha} - ${hora}`;
+                    document.getElementById('fecha-hora').textContent = fechaHoraString;
+                  }
+                
+                  // Mostrar la fecha y hora actual al cargar la página
+                  mostrarFechaHora();
+                
+                  // Actualizar la fecha y hora cada segundo
+                  setInterval(mostrarFechaHora, 1000);
+                </script>
+                </div>
+            </footer>
+        </body>
+    </html>
+</html>

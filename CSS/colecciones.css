@@ -1,0 +1,83 @@
+@font-face{
+    font-family: letra;
+    src: url(../LETRAS/WhiskeyState_PERSONAL_USE_ONLY.ttf);
+
+    font-family: letra1;
+    src: url(../LETRAS/DESIGNER.ttf);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+nav ul li {
+    margin: 10px;
+    padding: 0;
+    font-family: letra1;
+    text-align: center;    
+}
+#Masdetalles{
+    font-size: small;
+}
+#Título{
+    font-size: 35px;
+    font-family: letra1;
+    text-align: center  ;
+    padding: 30px;
+}
+
+#colección1{
+
+}
+
+#RedesS{
+    position: absolute;
+    top: 2010px;
+    right: 50px;
+    list-style: none;
+}
+
+#Politicas{
+
+}
+
+#redessociales{
+    color: orange; 
+    text-decoration: none;
+
+}
+
+
+#Politicas1{
+    color: inherit; /* Esto heredará el color del texto del elemento padre */
+    text-decoration: none; /* Esto eliminará el subrayado */
+    position: absolute;
+    top: 3940px;
+    right: 855px;
+}
+
+#Contacto1{
+    color: inherit; /* Esto heredará el color del texto del elemento padre */
+    text-decoration: none; /* Esto eliminará el subrayado */
+}
+
+#desplegable1{
+    float: left;
+    font-family: letra1;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno de enfoque */
+}
+
+#desplegable2{
+    float: left;
+    font-family: letra1;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el contorno de enfoque */
+}

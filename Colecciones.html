@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+    <html lang="es-ES">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="CSS/Principal.css"/>
+            <link rel="shorcut icon" href="IMAGENES/_78a8e8ab-576e-45b6-927b-6e8c1a26e409.jpg" TYPE="image/x-icon" />
+            <link rel="stylesheet" href="CSS/colecciones.css"/>
+        </head>
+
+        <body>
+            <header> <!-- Contenido del encabezado -->         
+                <div id="imagen">
+                    <img src="IMAGENES/_78a8e8ab-576e-45b6-927b-6e8c1a26e409.jpg" alt="Logo de la tienda">
+                </div>
+
+                <div id="logo">
+                    <strong>F & A</strong>
+                </div>
+
+                <div id="Buscar">
+                    Buscar  <input type="search" name="buscar" placeholder="Buscar"/>
+                </div>
+                <div id="carrito">
+                    <a id="carrito1" href="carrito.html">Carrito</a>
+                </div>
+            </header>
+            
+            <nav> <!-- Menú de navegación principal -->
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Tienda.html">Tienda</a></li>
+                    <li><a href="Colecciones.html">Colecciones</a></li>
+                    <li><a href="Sobre nosotros.html">Sobre nosotros</a></li>
+                    <li><a  href="FOREVER DAMNED ALEJANDRO MORENO Y JESUS PANTOJA/PRUEBA GRID/index.html">F&A x Forever damned</a></li>            <div class="dropdown">
+                    <li><button class="dropbtn" id="desplegable"style="background-color: black; color: white;"><a href="contacto.html">Asistencia</a></button></li>
+                    <div class="dropdown-content">
+                        <li><a href="contacto.html" id="desplegable1">Contacto</a></li>
+                        <li><a href="Terminos y condiciones.html"id="desplegable2">Terminos y condiciones</a></li>
+                    </div>
+              
+              
+              <script>
+              // Obtener el botón y el menú desplegable
+              var dropdown = document.querySelector('.dropdown');
+              var dropdownContent = document.querySelector('.dropdown-content');
+              
+              // Agregar un evento click al botón
+              dropdown.addEventListener('click', function() {
+                // Si el menú está visible, ocultarlo; si está oculto, mostrarlo
+                if (dropdownContent.style.display === 'block') {
+                  dropdownContent.style.display = 'none';
+                } else {
+                  dropdownContent.style.display = 'block';
+                }
+              });
+              </script>
+                </ul>
+            </nav>
+
+            
+            
+            <main>
+                <div id="Título">Colecciones</div>
+                <nav class="menu">
+                    <ul id="colección1">
+                        <li><img src="IMAGENES/Colección1.jpg" alt="Colección1">
+                        <br>Scouts <br>
+                        <div id="Masdetalles">
+                            <br><a href="Colecciones/Scouts.html">Ver colección</a>
+                        </div>
+                        </li>
+                        
+                    </ul>
+
+                    <ul id="colección2">
+                        <li><img src="IMAGENES/Colección2.jpg" alt="Colección2">
+                            <br>Heaven or hell <br>
+                            <div id="Masdetalles">
+                                <br><a href="Colecciones/Heaven or hell.html">Ver colección</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul id="colección3">
+                        
+                        <li><img src="IMAGENES/Colección3.jpg" alt="Colección3">
+                            <br>Fall Winter Tape #1 <br>
+                            <div id="Masdetalles">
+                                <br><a href="Colecciones/Fall Winter Tape.html">Ver colección</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul id="colección1">
+                        <li><img src="IMAGENES/Colección4.jpg" alt="Colección4">
+                        <br>Sun-kissed collection <br>
+                        <div id="Masdetalles">
+                            <br><a href="Colecciones/Sun-kissed collection.html">Ver colección</a>
+                        </div>
+                        </li>
+                        
+                    </ul>
+
+                    <ul id="colección2">
+                        <li><img src="IMAGENES/Colección5.jpg" alt="Colección5">
+                            <br>Summer Tapes <br>
+                            <div id="Masdetalles">
+                                <br><a href="Colecciones/Summer tapes.html">Ver colección</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul id="colección3">
+                        
+                        <li><a href="Colecciones/Champagne problems.html"></a><img src="IMAGENES/Colección6.jpg" alt="Colección6">
+                            <br>Champagne Problems <br>
+                            <div id="Masdetalles">
+                                <br><a href="Colecciones/Champagne problems.html">Ver colección</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+            </main>
+            <footer>
+                <div id="Contacto">
+                    <h3 id="Contacto1"><a id="Contacto1" href="contacto.html">Contacto</a></h3>
+                    <p>Dirección: Calle Ancha #34, Cordoba</p>
+                    <p>Teléfono: (678) 574-356</p>
+                    <p>Email: info@f&aropa.com</p>
+                </div>
+        
+                <div id="RedesS">
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <ul>
+                        <a id="redessociales" href="https://facebook.com/fayaropa" target="_blank">Facebook</a>
+                        <a id="redessociales" href="https://twitter.com/fayaropa" target="_blank">Twitter</a>
+                        <a id="redessociales" href="https://instagram.com/fayaropa" target="_blank">Instagram</a>
+                    </ul>
+                </div>
+
+                <div id="Politicas"> 
+
+                    <p>&copy; 2023 F&A - Ropa de Moda. Todos los derechos reservados. Hecho por Alejandro García® y Francisco Soler®</p>
+                                    
+                <div id="fecha-hora"></div>
+                
+                <script>
+                  // Función para obtener la fecha y hora actual y actualizarla cada segundo
+                  function mostrarFechaHora() {
+                    const fechaHoraActual = new Date();
+                    const fecha = fechaHoraActual.toLocaleDateString();
+                    const hora = fechaHoraActual.toLocaleTimeString();
+                    const fechaHoraString = `${fecha} - ${hora}`;
+                    document.getElementById('fecha-hora').textContent = fechaHoraString;
+                  }
+                
+                  // Mostrar la fecha y hora actual al cargar la página
+                  mostrarFechaHora();
+                
+                  // Actualizar la fecha y hora cada segundo
+                  setInterval(mostrarFechaHora, 1000);
+                </script>
+                </div>
+            </footer>
+        </body>
+    </html>
+</html>

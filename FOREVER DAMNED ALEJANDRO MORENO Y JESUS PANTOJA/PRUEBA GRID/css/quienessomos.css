@@ -1,0 +1,116 @@
+@font-face {
+    font-family: vogue;
+    src: url(/tipoletra/Vogue.ttf);
+}
+
+@font-face {
+    font-family: valverde;
+    src: url(/tipoletra/Valverde-CondSemBdIta.otf);
+}
+body {
+    background-color:#bfdbf7;
+    margin: 0px;
+}
+
+div.titulo-encabezado {
+    text-align: center;
+    font-family:"vogue";
+    font-size: 40px;
+    color:#fdfffc;
+    padding-top: 10px;
+    background-color: #ffc2e2;
+    width:max-content;
+    position: static;
+    width: 1900px;
+}
+
+div.logo-encabezado {
+    align-content: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    position: static;
+    margin-right: 10px;
+}
+
+div.barra-nav li{
+    color: #fdfffc;
+    display: inline-block;
+    font-family: 'Young Serif', serif;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration:none;
+    font-size: 33px;
+    align-content: center;
+}
+div.barra-nav nav{
+    width: 100%;
+    text-align:center;
+    position: static;
+    margin-top: -75px;
+}
+
+div.barra-nav a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fdfffc;
+}
+
+hr {
+    width:100%;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+div.piepagina {
+    font-family:'valverde';
+    text-align: center;
+    color:#fdfffc;
+    font-size: 25px;
+    margin-bottom:0px;
+    margin-top: 100px;
+    background-color: #ffc2e2;
+    text-shadow: 3px 2px 3px #bfdbf7;
+    box-shadow: 2px 5px 30px black;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: block;
+    
+}
+
+div.texto-1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color:#fdfffc;
+    font-family:"valverde";
+    font-weight:bolder;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 1 / 3 / 6; }
+    .div3 { grid-area: 3 / 1 / 4 / 6; }
+    .div4 { grid-area: 4 / 1 / 6 / 6; }
+    .div5 { grid-area: 6 / 1 / 7 / 6; }
+
+    video{
+        display: inline-block;
+        margin-left: 500px;
+    }
